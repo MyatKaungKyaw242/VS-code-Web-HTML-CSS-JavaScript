@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="class">
+            <h2>Shoes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, provident.</p>
+            <p>$100.00</p>
+            <a href="#" class="btn btn-Shoes">Buy Now</a>
+
+        </div>
+
+        <div class="class">
+            <h2>Earphone</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, debitis.</p>
+            <p>$40.00</p>
+            <a href="#" class="btn btn-Earphone">Buy Now</a>
+
+        </div>
+        <div class="class">
+            <h2>Watch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, animi!</p>
+            <p>$70.84</p>
+            <a href="#" class="btn btn-Watch">Buy Now</a>
+
+        </div>
+        <div class="class">
+            <h2>Mobile</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, soluta.</p>
+            <p>$1000.84</p>
+            <a href="#" class="btn btn-Mobile">Buy Now</a>
+
+        </div>
+    </main>
+</body>
+
+
+----------------------------------------------------------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dd1010bc;
+}
+.container{
+    /* height: 50%; */
+    display: flex;
+    gap: 50px;
+    
+}
+.class{
+    background: #f6f6f6;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* padding: 30px; */
+    width: 240px;
+}
+h2{
+    padding-top: 170px;
+}
+p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* a{ */
+    /* display: block; */
+    /* padding-top: 60px; */
+    
+/* } */
+/*  */
+.btn{
+    padding: 20px 0;
+    
+    display: block;
+    /* width: 100%; */
+    
+    border-radius: 10px;
+    background: rgb(222, 7, 7);
+    
+}
+/* main { */
+    background: white;
+    height: 100vh;
+
+}
+
+.shoes{
+    width: 250px;
+    height: 500px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.Earphone{
+ width: 250px;
+ height: 500px;
+ background: white;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+border-radius: 20px;
+position: absolute;
+left: 500px;
+top: 150px;
+
+
+}
+.Watch{
+    width: 250px;
+    height: 500px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+.Mobile{
+width: 250px;
+    height: 500px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+    position: absolute;
+    left: 1100px;
+    top: 150px;
+}
+.shoes,.Earphone,.Mobile,.Watch{
+    display: block;
+    padding: 50px;
+}
+
+</html>
