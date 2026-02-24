@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="new.css">
+
+
+<body>
+
+    <header>
+        <nav>
+            <a href="" class="logo">
+                <img src="./image/svg/logo.svg" alt="coffee" width="70">
+                <span>90's Cafe</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="social-links">
+                <li>
+                    <a href="#">
+                        <img src="./image/svg/facebook.svg" alt="facebook logo" width="30">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/svg/instaa.svg" alt="instagram logo" width="30">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/svg/twitter.svg" alt="twitter logo" width="30">
+                    </a>
+                </li>
+            </ul>
+            <img src="./image/svg/MaterialSymbolsLightListsRounded.svg" alt="menu" width="35" id="menu">
+
+
+        </nav>
+    </header>
+    <main>
+        <section id="about"></section>
+        <section id="menu"></section>
+        <section id="reservation"></section>
+        <section id="gallery"></section>
+        <section id="contact"></section>
+        <section id="list"></section>
+        <section id="name"></section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Coffee Shop. All rights reserved. Designed by <a href="">YGN</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+--------------------------------------------------------------------------------------------
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: #bbced2;
+    background-image: url("./image/coffee-1117933_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #6ea69b9a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.nav-links,.social-links{
+    display: flex;
+    gap: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-links a{
+    
+    background: rgba(173, 216, 230, 0.401);
+    padding: 7px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px 2px #ddd;
+    transition: all 0.4s ease-in-out;
+}
+.nav-links a:hover{
+    background: #af9595;
+    box-shadow: inset 0 0 5px 2px #af9595;
+    color: rgba(199,199,177);
+}
+
+ #menu {
+     cursor: pointer;
+     display: none;
+ }
